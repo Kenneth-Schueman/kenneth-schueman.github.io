@@ -21,12 +21,11 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Kenneth Schueman</strong>
+                I'm
+                <strong className="main-name"> Kenneth Schueman</strong><strong> a</strong>
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
-                <Type />
+              <div style={{ marginLeft: 45, textAlign: "left" }}>
+              <Type/>
               </div>
             </Col>
 

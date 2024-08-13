@@ -18,17 +18,17 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects and classes I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Automated Blinds project"
+              description="Arduino sketch and iPhone app for an automated window blinds system, capable of opening, closing, and scheduled opening of window blinds connected to a stepper motor."
+              ghLink="https://github.com/Kenneth-Schueman/Automated-blinds-IOS"
+              demoLink=""
             />
           </Col>
 
@@ -36,10 +36,10 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="kenneth-schueman.github.io"
+              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js."
+              ghLink="https://github.com/Kenneth-Schueman/kenneth-schueman.github.io"
+              demoLink=""
             />
           </Col>
 
@@ -47,10 +47,10 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Chat Bot"
+              description="Simple Python chat bot using the 'ChatterBot' library. The chat bot is trained on a dataset of 1000+ conversations and is able to answer questions and hold a conversation with the user."
+              ghLink="https://github.com/Kenneth-Schueman/MSI-AI-Chat-Bot"
+              demoLink=""              
             />
           </Col>
 
@@ -58,10 +58,10 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="RedditToVideo"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://github.com/Kenneth-Schueman/RedditToVideo"
+              demoLink=""
             />
           </Col>
 
@@ -69,9 +69,9 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              title="one-to-one-Uno-java"
+              description="Java based single player UNO style game"
+              ghLink="https://github.com/Kenneth-Schueman/one-to-one-Uno-java"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
           </Col>
@@ -80,10 +80,109 @@ function Projects() {
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
+              title="RRN-Music-Predictorn"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              ghLink="https://github.com/Kenneth-Schueman/RRN-Music-Predictor"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Spinning-Cube-C"
+              description="This is a C language code to visualize a spinning cube using just ASCII characters. Follow the guide to know more aobut the working and possible modifications.."
+              ghLink="https://github.com/Kenneth-Schueman/Spinning-Cube-C"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="CPRE-288-Final"
+              description="Final project for iastate CPRE 288 developed by Alexander Moeller, Kenneth Schueman, Clayton Reitz, and Nicholas Pinnello."
+              ghLink="https://github.com/Kenneth-Schueman/CPRE-288-Final"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Spring-2023-COM-S-319"
+              description="User interfaces with Abraham Netzahualcoy Aldaco Gastelum"
+              ghLink="https://github.com/Kenneth-Schueman/Spring-2023-COM-S-319"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Spring-2023-CPRE-288"
+              description=""
+              ghLink="https://github.com/Kenneth-Schueman/Spring-2023-CPRE-288"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Spring-2021-COM-S-227"
+              description=""
+              ghLink="https://github.com/Kenneth-Schueman/Spring-2021-COM-S-227"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Fall-2021-SE-185"
+              description=""
+              ghLink="https://github.com/Kenneth-Schueman/Fall-2021-SE-185"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="Fall-2022-COM-S-228"
+              description="This is an archive of my assignments from the course Computer Science 228 (Data structures) at Iowa State University in the Fall of 2022. Note: All assignments are listed in the index, sorted accordingly. The PDF (assignment specifications/instructions) given to me for each assignment, along with the JUnit tests I was given are contained in each directory accordingly."
+              ghLink="https://github.com/Kenneth-Schueman/Fall-2022-COM-S-228"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="COM-S-363"
+              description=""
+              ghLink="https://github.com/Kenneth-Schueman/COM-S-363"
+              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={emotion}
+              isBlog={false}
+              title="S-E-309"
+              description=""
+              ghLink="https://github.com/Kenneth-Schueman/S-E-309"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>

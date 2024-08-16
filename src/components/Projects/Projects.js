@@ -2,12 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import iowaState from "../../Assets/Projects/IowaState.jpg";
+import autoBlinds from "../../Assets/Projects/autoBlinds.png";
+import reddit from "../../Assets/Projects/reddit.jpg";
+import uno from "../../Assets/Projects/uno.jpg";
+import aiMusic from "../../Assets/Projects/aiMusic.png";
+import cube from "../../Assets/Projects/cube.jpg";
 
 function Projects() {
   return (
@@ -23,7 +25,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={autoBlinds}
               isBlog={false}
               title="Automated Blinds project"
               description="Arduino sketch and iPhone app for an automated window blinds system, capable of opening, closing, and scheduled opening of window blinds connected to a stepper motor."
@@ -45,7 +47,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chatify}
               isBlog={false}
               title="Chat Bot"
               description="Simple Python chat bot using the 'ChatterBot' library. The chat bot is trained on a dataset of 1000+ conversations and is able to answer questions and hold a conversation with the user."
@@ -56,7 +58,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={reddit}
               isBlog={false}
               title="RedditToVideo"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
@@ -67,7 +69,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={uno}
               isBlog={false}
               title="one-to-one-Uno-java"
               description="Java based single player UNO style game"
@@ -78,7 +80,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={aiMusic}
               isBlog={false}
               title="RRN-Music-Predictorn"
               description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
@@ -90,7 +92,7 @@ function Projects() {
           
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={cube}
               isBlog={false}
               title="Spinning-Cube-C"
               description="This is a C language code to visualize a spinning cube using just ASCII characters. Follow the guide to know more aobut the working and possible modifications.."
@@ -101,7 +103,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iowaState}
               isBlog={false}
               title="CPRE-288-Final"
               description="Final project for iastate CPRE 288 developed by Alexander Moeller, Kenneth Schueman, Clayton Reitz, and Nicholas Pinnello."
@@ -112,7 +114,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iowaState}
               isBlog={false}
               title="Spring-2023-COM-S-319"
               description="User interfaces with Abraham Netzahualcoy Aldaco Gastelum"
@@ -123,7 +125,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iowaState}
               isBlog={false}
               title="Spring-2023-CPRE-288"
               description=""
@@ -134,7 +136,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iowaState}
               isBlog={false}
               title="Spring-2021-COM-S-227"
               description=""
@@ -145,7 +147,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iowaState}
               isBlog={false}
               title="Fall-2021-SE-185"
               description=""
@@ -156,7 +158,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iowaState}
               isBlog={false}
               title="Fall-2022-COM-S-228"
               description="This is an archive of my assignments from the course Computer Science 228 (Data structures) at Iowa State University in the Fall of 2022. Note: All assignments are listed in the index, sorted accordingly. The PDF (assignment specifications/instructions) given to me for each assignment, along with the JUnit tests I was given are contained in each directory accordingly."
@@ -167,7 +169,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iowaState}
               isBlog={false}
               title="COM-S-363"
               description=""
@@ -178,7 +180,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={iowaState}
               isBlog={false}
               title="S-E-309"
               description=""

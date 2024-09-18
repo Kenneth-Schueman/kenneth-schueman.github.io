@@ -21,7 +21,7 @@ import LogRocket from 'logrocket';
 LogRocket.init('ushg5r/test');
 LogRocket.identify('THE_USER_ID_IN_YOUR_APP', {
   name: 'Chad Chatwick',
-  email: 'ChadChat@motorolasolutions.com',
+  email: 'ChadChat@example.com',
 
   // Custom user variables
   // admin: 'true'

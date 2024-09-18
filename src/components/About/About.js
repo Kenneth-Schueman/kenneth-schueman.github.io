@@ -6,8 +6,10 @@ import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.jpg";
 import Toolstack from "./Toolstack";
+import LogRocket from "logrocket";
 
 function About() {
+  LogRocket.log('About component rendered');
   return (
     <Container fluid className="about-section">
       <Particle />

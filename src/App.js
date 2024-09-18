@@ -16,13 +16,23 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import LogRocket from 'logrocket';
+
+LogRocket.init('ushg5r/test');
+LogRocket.identify('THE_USER_ID_IN_YOUR_APP', {
+  name: 'Chad Chatwick',
+  email: 'ChadChat@motorolasolutions.com',
+
+  // Custom user variables
+  // admin: 'true'
+});
 
 function App() {
-  const [load, upadateLoad] = useState(true);
+  const [load, updateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
-      upadateLoad(false);
+      updateLoad(false);
     }, 1200);
 
     return () => clearTimeout(timer);
